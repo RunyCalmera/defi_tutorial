@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import dai from '../dai.png'
 
+// We want to make the loader work
+// We need main. This is a copy of App.js
+// But without a lot of content
+// Make sure you import main in App.js
+
 class Main extends Component {
 
   render() {
     return (
       <div id="content" className="mt-3">
-
+      
         <table className="table table-borderless text-muted text-center">
           <thead>
             <tr>
